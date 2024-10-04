@@ -33,6 +33,8 @@ app.get('/', (req, res)=>{
 });
 require('./routes/login.route.js')(app);
 require('./routes/productList.route.js')(app);
+require('./routes/createCar.route.js')(app);
+
 // const data = new productModel({
 //     productCount : 0,
 //     productName : "Chevrolet"
